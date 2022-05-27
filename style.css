@@ -1,0 +1,71 @@
+body{
+    background-color: #dbe3e5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2392a6ac' fill-opacity='0.51'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.container{
+    max-width:900px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.main{
+    align-items:flex-start;
+}
+
+header{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+h1{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    font-size:22px;
+    width:25%;
+
+}
+h1,
+nav{
+    display: inline-block;
+}
+nav{
+    text-align: right;
+    width:60%;
+}
+nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:cadetblue;
+}
+
+main{
+    max-width:60%;
+}
+.headshot{
+    float:left;
+}
+
+h2{
+    border-bottom:3px black solid ;
+}
+aside img{
+    box-shadow:1px 1px 5px black;  
+    width:40px ;
+    margin: 10px 5px;
+}
+aside{
+    text-align: center;
+}
+main,aside{
+    background-color: whitesmoke;
+    padding:5px;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    color:blue;
+    padding: 2px;
+    margin-top: 20px;
+}
